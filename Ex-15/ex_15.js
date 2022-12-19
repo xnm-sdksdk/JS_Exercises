@@ -48,15 +48,41 @@ squareButton.addEventListener('click', function(e) {
 });
 
 
-
+// half button event listener
 const halfButton = document.getElementById('half-button');
+halfButton.addEventListener('click', function(e) {
+    const num = document.getElementById('half-input').value;
+    document.getElementById('solution').innerHTML = halfNumber(num);
+    e.preventDefault();
+});
+
+
 const fractionButton = document.getElementById('percent-button');
+fractionButton.addEventListener('click', function(e) {
+    const num1 = document.getElementById('percent1-input').value;
+    const num2 = document.getElementById('percent2-input').value;
+    document.getElementById('solution').innerHTML = fractionNumber(num1, num2);
+    e.preventDefault();
+});
+
+
 const circleButton = document.getElementById('area-button');
+circleButton.addEventListener('click', function(e) {
+    const num = document.getElementById('area-input').value;
+    document.getElementById('solution').innerHTML = circleRadius(num);
+    e.preventDefault();
+});
+
+
 const clear = document.getElementById('clear-entry-button');
+clear.addEventListener('click', function(e) {
+    document.getElementById('solution').innerHTML = '';
+    e.preventDefault();
+});
 
 const solution = document.getElementById('solution');
 
 
 
-
+// Ex 15 Done 
 
