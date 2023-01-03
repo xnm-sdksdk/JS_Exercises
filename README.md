@@ -12,4 +12,4 @@ Javascript exercises of the Web Technologies discipline, of the Web Technologies
 
 - These series of exercises is provided by Professor Miguel Ferreira.
 
-#################### Enjoy it!
+Enjoy it!
