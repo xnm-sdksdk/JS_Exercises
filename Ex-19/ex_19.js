@@ -12,8 +12,8 @@ If the number is not passed, the function should return the multiplication table
 function multiplicationTable(num = 1) {
     let table = '';
 
-    for (let i = 0; i < num; i++) {
-        table += `${num} x ${i + 1} = ${num * (i + 1)}\n`;
+    for (let i = 1; i <= 10; i++) {
+        table += `${num} x ${i} = ${num * i}\n`;
     }
     alert(table);
 
