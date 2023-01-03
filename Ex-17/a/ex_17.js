@@ -16,5 +16,4 @@ if (name == "ECMAScript") {
     alert("You don't know? ECMAScript!");
 }
 
-
-// Exercise 17 - b)
+// Exercise 17 - a) - Done.
