@@ -16,6 +16,23 @@ If the number 1 which is prime can not be divided by any other number, but himse
 */
 
 
+const number = 10
+let check;
 
+for (let i = 2; i <= number; i++) {
+    check = true;
 
+    for (let j = 2; j < i; j++) {
+        if (i % j === 0) {
+            check = false;
+            break;
+        }
+    }
 
+    if (check) {
+        alert(i);
+    }
+
+}
+
+// Exercise 18 - b) - Done.
